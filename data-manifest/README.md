@@ -14,14 +14,14 @@ The ground source of truth. Each area entry includes:
 | `municipality_type` | `city`, `local_council`, or `regional_council` |
 | `district` | Israeli administrative district |
 | `population` | Approximate population |
-| `folder_name` | Directory name used in `data/`, `working-data/`, and `structured-data/` |
+| `folder_name` | Directory name used in `data/` and `pipeline/` subdirectories |
 | `raw_urls` | Array of known source URLs with format and notes |
 
 ## How this manifest is used
 
 1. **MCP server** pulls production data from `data/<folder_name>/shelters.json`
 2. **Contributors** use the manifest to find areas that need data or have raw URLs to scrape
-3. **Tracking** (`working-data/tracking.json`) references manifest IDs to track pipeline progress
+3. **Tracking** (`pipeline/first-entry/tracking.json`) references manifest IDs to track pipeline progress
 
 ## Updating the manifest
 
