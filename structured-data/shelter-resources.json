@@ -1,0 +1,2047 @@
+{
+  "metadata": {
+    "description": "Shelter (Miklat) lookup resources by municipality in Israel",
+    "data_source": "Municipal websites, GovMap, Israel CBS",
+    "last_updated": "2026-03-09",
+    "national_resources": [
+      {
+        "name": "GovMap - National Shelter Map",
+        "url": "https://www.govmap.gov.il/?lay=417",
+        "format": "web_map"
+      }
+    ]
+  },
+  "municipalities": [
+    {
+      "english_name": "Acre",
+      "hebrew_name": "עכו",
+      "municipality_type": "city",
+      "district": "Northern",
+      "population": 51000,
+      "folder_name": "acre",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Afula",
+      "hebrew_name": "עפולה",
+      "municipality_type": "city",
+      "district": "Northern",
+      "population": 58000,
+      "folder_name": "afula",
+      "shelter_resources": {
+        "resource_1": {
+          "url": "https://www.afula.muni.il/262/",
+          "format": "web_page",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "english_name": "Ar'ara",
+      "hebrew_name": "ערערה",
+      "municipality_type": "city",
+      "district": "Haifa",
+      "population": 28000,
+      "folder_name": "ar-ara",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Arad",
+      "hebrew_name": "ערד",
+      "municipality_type": "city",
+      "district": "Southern",
+      "population": 26000,
+      "folder_name": "arad",
+      "shelter_resources": {
+        "resource_1": {
+          "url": "https://www.arad.muni.il/uploads/n/1621501702.6728.pdf",
+          "format": "pdf",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "english_name": "Ariel",
+      "hebrew_name": "אריאל",
+      "municipality_type": "city",
+      "district": "Judea and Samaria Area",
+      "population": 21000,
+      "folder_name": "ariel",
+      "shelter_resources": {
+        "resource_1": {
+          "url": "https://www.ariel.muni.il/860/",
+          "format": "web_page",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "english_name": "Ashdod",
+      "hebrew_name": "אשדוד",
+      "municipality_type": "city",
+      "district": "Southern",
+      "population": 263000,
+      "folder_name": "ashdod",
+      "shelter_resources": {
+        "resource_1": {
+          "url": "https://www.ashdod.muni.il/he-il/%D7%90%D7%AA%D7%A8-%D7%94%D7%A2%D7%99%D7%A8/%D7%91%D7%99%D7%98%D7%97%D7%95%D7%9F-%D7%A2%D7%99%D7%A8%D7%95%D7%A0%D7%99/%D7%9E%D7%A7%D7%9C%D7%98%D7%99%D7%9D-%D7%A6%D7%99%D7%91%D7%95%D7%A8%D7%99%D7%99%D7%9D/",
+          "format": "web_page",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "english_name": "Ashkelon",
+      "hebrew_name": "אשקלון",
+      "municipality_type": "city",
+      "district": "Southern",
+      "population": 161000,
+      "folder_name": "ashkelon",
+      "shelter_resources": {
+        "resource_1": {
+          "url": "https://ashkelon.muni.gov.il/%D7%90%D7%AA%D7%A8-%D7%97%D7%99%D7%A8%D7%95%D7%9D/%D7%A8%D7%A9%D7%99%D7%9E%D7%AA-%D7%9E%D7%A7%D7%9C%D7%98%D7%99%D7%9D-%D7%91%D7%A2%D7%99%D7%A8",
+          "format": "web_page",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "english_name": "Baqa al-Gharbiyye",
+      "hebrew_name": "בָקָא אל-גרביה",
+      "municipality_type": "city",
+      "district": "Haifa",
+      "population": 32000,
+      "folder_name": "baqa-al-gharbiyye",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Bat Yam",
+      "hebrew_name": "בת ים",
+      "municipality_type": "city",
+      "district": "Tel Aviv",
+      "population": 131000,
+      "folder_name": "bat-yam",
+      "shelter_resources": {
+        "resource_1": {
+          "url": "https://www.bat-yam.muni.il/148/",
+          "format": "web_page",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "english_name": "Beersheba",
+      "hebrew_name": "באר שבע",
+      "municipality_type": "city",
+      "district": "Southern",
+      "population": 220000,
+      "folder_name": "beersheba",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Beit She'an",
+      "hebrew_name": "בית שאן",
+      "municipality_type": "city",
+      "district": "Northern",
+      "population": 20000,
+      "folder_name": "beit-she-an",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Beit Shemesh",
+      "hebrew_name": "בית שמש",
+      "municipality_type": "city",
+      "district": "Jerusalem",
+      "population": 160000,
+      "folder_name": "beit-shemesh",
+      "shelter_resources": {
+        "resource_1": {
+          "url": "https://www.betshemesh.muni.il/100161/",
+          "format": "web_page",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "english_name": "Beitar Illit",
+      "hebrew_name": "ביתר עילית",
+      "municipality_type": "city",
+      "district": "Judea and Samaria Area",
+      "population": 72000,
+      "folder_name": "beitar-illit",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Bet She'an",
+      "hebrew_name": "בית שאן",
+      "municipality_type": "city",
+      "district": "Northern",
+      "population": 20000,
+      "folder_name": "bet-she-an",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Bnei Brak",
+      "hebrew_name": "בני ברק",
+      "municipality_type": "city",
+      "district": "Central",
+      "population": 225000,
+      "folder_name": "bnei-brak",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Dimona",
+      "hebrew_name": "דימונה",
+      "municipality_type": "city",
+      "district": "Southern",
+      "population": 36000,
+      "folder_name": "dimona",
+      "shelter_resources": {
+        "resource_1": {
+          "url": "https://www.dimona.muni.il/%D7%A8%D7%A9%D7%99%D7%9E%D7%AA-%D7%9E%D7%A7%D7%9C%D7%98%D7%99%D7%9D-%D7%9E%D7%AA%D7%A2%D7%93%D7%9B%D7%A0%D7%AA/",
+          "format": "web_page",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "english_name": "Efrat",
+      "hebrew_name": "אפרת",
+      "municipality_type": "city",
+      "district": "Judea and Samaria Area",
+      "population": 11000,
+      "folder_name": "efrat",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Eilat",
+      "hebrew_name": "אילת",
+      "municipality_type": "city",
+      "district": "Southern",
+      "population": 54000,
+      "folder_name": "eilat",
+      "shelter_resources": {
+        "resource_1": {
+          "url": "https://www.eilat.muni.il/%D7%A8%D7%A9%D7%99%D7%9E%D7%AA-%D7%9E%D7%A7%D7%9C%D7%98%D7%99%D7%9D-%D7%93%D7%95-%D7%AA%D7%9B%D7%9C%D7%99%D7%AA%D7%99%D7%99%D7%9D/",
+          "format": "web_page",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "english_name": "El'ad",
+      "hebrew_name": "אלעד",
+      "municipality_type": "city",
+      "district": "Central",
+      "population": 52000,
+      "folder_name": "el-ad",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Hadera",
+      "hebrew_name": "חדרה",
+      "municipality_type": "city",
+      "district": "Haifa",
+      "population": 105000,
+      "folder_name": "hadera",
+      "shelter_resources": {
+        "resource_1": {
+          "url": "https://www.hadera.muni.il/%D7%A8%D7%A9%D7%99%D7%9E%D7%AA-%D7%9E%D7%A7%D7%9C%D7%98%D7%99%D7%9D/",
+          "format": "web_page",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "english_name": "Haifa",
+      "hebrew_name": "חיפה",
+      "municipality_type": "city",
+      "district": "Haifa",
+      "population": 286000,
+      "folder_name": "haifa",
+      "shelter_resources": {
+        "resource_1": {
+          "url": "https://www.haifa.muni.il/operation/security-and-emergency/safe-place/",
+          "format": "web_page",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "english_name": "Harish",
+      "hebrew_name": "חריש",
+      "municipality_type": "city",
+      "district": "Haifa",
+      "population": 30000,
+      "folder_name": "harish",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Hod HaSharon",
+      "hebrew_name": "הוד השרון",
+      "municipality_type": "city",
+      "district": "Central",
+      "population": 68000,
+      "folder_name": "hod-hasharon",
+      "shelter_resources": {
+        "resource_1": {
+          "url": "https://herum.hod-hasharon.muni.il/he/65/",
+          "format": "web_page",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "english_name": "Holon",
+      "hebrew_name": "חולון",
+      "municipality_type": "city",
+      "district": "Tel Aviv",
+      "population": 200000,
+      "folder_name": "holon",
+      "shelter_resources": {
+        "resource_1": {
+          "url": "https://www.holon.muni.il/Residents/Emergency/pages/publicshelters.aspx",
+          "format": "web_page",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "english_name": "Jerusalem",
+      "hebrew_name": "ירושלים",
+      "municipality_type": "city",
+      "district": "Jerusalem",
+      "population": 983000,
+      "folder_name": "jerusalem",
+      "shelter_resources": {
+        "resource_1": {
+          "url": "https://www.jerusalem.muni.il/he/residents/security/spaces/list/",
+          "format": "web_page",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "english_name": "Kafr Qasim",
+      "hebrew_name": "כפר קאסם",
+      "municipality_type": "city",
+      "district": "Central",
+      "population": 24000,
+      "folder_name": "kafr-qasim",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Karmiel",
+      "hebrew_name": "כרמיאל",
+      "municipality_type": "city",
+      "district": "Northern",
+      "population": 50000,
+      "folder_name": "karmiel",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Kfar Saba",
+      "hebrew_name": "כפר סבא",
+      "municipality_type": "city",
+      "district": "Central",
+      "population": 117000,
+      "folder_name": "kfar-saba",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Kiryat Arba",
+      "hebrew_name": "קרית ארבע",
+      "municipality_type": "city",
+      "district": "Judea and Samaria Area",
+      "population": 8000,
+      "folder_name": "kiryat-arba",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Kiryat Ata",
+      "hebrew_name": "קריית אתא",
+      "municipality_type": "city",
+      "district": "Haifa",
+      "population": 62000,
+      "folder_name": "kiryat-ata",
+      "shelter_resources": {
+        "resource_1": {
+          "url": "https://www.kiryat-ata.org.il/residentservice/emergency/publicshelterslist/",
+          "format": "web_page",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "english_name": "Kiryat Bialik",
+      "hebrew_name": "קריית ביאליק",
+      "municipality_type": "city",
+      "district": "Haifa",
+      "population": 41000,
+      "folder_name": "kiryat-bialik",
+      "shelter_resources": {
+        "resource_1": {
+          "url": "https://qbialik.org.il/%D7%97%D7%99%D7%A8%D7%95%D7%9D/%D7%A8%D7%A9%D7%99%D7%9E%D7%AA-%D7%9E%D7%A7%D7%9C%D7%98%D7%99%D7%9D-%D7%A6%D7%99%D7%91%D7%95%D7%A8%D7%99%D7%99%D7%9D-2/",
+          "format": "web_page",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "english_name": "Kiryat Gat",
+      "hebrew_name": "קריית גת",
+      "municipality_type": "city",
+      "district": "Southern",
+      "population": 60000,
+      "folder_name": "kiryat-gat",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Kiryat Shmona",
+      "hebrew_name": "קריית שמונה",
+      "municipality_type": "city",
+      "district": "Northern",
+      "population": 23000,
+      "folder_name": "kiryat-shmona",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Kiryat Tiv'on",
+      "hebrew_name": "קריית טבעון",
+      "municipality_type": "city",
+      "district": "Haifa",
+      "population": 20000,
+      "folder_name": "kiryat-tiv-on",
+      "shelter_resources": {
+        "resource_1": {
+          "url": "https://www.ktv.org.il/%D7%A8%D7%A9%D7%99%D7%9E%D7%AA-%D7%94%D7%9E%D7%A7%D7%9C%D7%98%D7%99%D7%9D-%D7%91%D7%A7%D7%A8%D7%99%D7%AA-%D7%98%D7%91%D7%A2%D7%95%D7%9F/",
+          "format": "web_page",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "english_name": "Kiryat Yam",
+      "hebrew_name": "קריית ים",
+      "municipality_type": "city",
+      "district": "Haifa",
+      "population": 43000,
+      "folder_name": "kiryat-yam",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Lod",
+      "hebrew_name": "לוד",
+      "municipality_type": "city",
+      "district": "Central",
+      "population": 85000,
+      "folder_name": "lod",
+      "shelter_resources": {
+        "resource_1": {
+          "url": "https://www.lod.muni.il/he/121/",
+          "format": "web_page",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "english_name": "Ma'ale Adumim",
+      "hebrew_name": "מעלה אדומים",
+      "municipality_type": "city",
+      "district": "Judea and Samaria Area",
+      "population": 42000,
+      "folder_name": "ma-ale-adumim",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Ma'alot-Tarshiha",
+      "hebrew_name": "מעלות-תרשיחא",
+      "municipality_type": "city",
+      "district": "Northern",
+      "population": 23000,
+      "folder_name": "ma-alot-tarshiha",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Migdal HaEmek",
+      "hebrew_name": "מגדל העמק",
+      "municipality_type": "city",
+      "district": "Northern",
+      "population": 25000,
+      "folder_name": "migdal-haemek",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Modi'in Illit",
+      "hebrew_name": "מודיעין עילית",
+      "municipality_type": "city",
+      "district": "Judea and Samaria Area",
+      "population": 85000,
+      "folder_name": "modi-in-illit",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Modi'in-Maccabim-Re'ut",
+      "hebrew_name": "מודיעין-מכבים-רעות",
+      "municipality_type": "city",
+      "district": "Central",
+      "population": 100000,
+      "folder_name": "modi-in-maccabim-re-ut",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Nahariya",
+      "hebrew_name": "נהריה",
+      "municipality_type": "city",
+      "district": "Northern",
+      "population": 58000,
+      "folder_name": "nahariya",
+      "shelter_resources": {
+        "resource_1": {
+          "url": "https://www.nahariya.muni.il/913/",
+          "format": "web_page",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "english_name": "Nazareth",
+      "hebrew_name": "נצרת",
+      "municipality_type": "city",
+      "district": "Northern",
+      "population": 87000,
+      "folder_name": "nazareth",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Nazareth Illit",
+      "hebrew_name": "נצרת עילית",
+      "municipality_type": "city",
+      "district": "Northern",
+      "population": 52000,
+      "folder_name": "nazareth-illit",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Nes Ziona",
+      "hebrew_name": "נס ציונה",
+      "municipality_type": "city",
+      "district": "Central",
+      "population": 55000,
+      "folder_name": "nes-ziona",
+      "shelter_resources": {
+        "resource_1": {
+          "url": "https://www.nzc.org.il/%D7%97%D7%A8%D7%91%D7%95%D7%AA-%D7%91%D7%A8%D7%96%D7%9C-%D7%94%D7%A0%D7%97%D7%99%D7%95%D7%AA-%D7%97%D7%99%D7%A8%D7%95%D7%9D-%D7%9E%D7%A7%D7%9C%D7%98%D7%99%D7%9D-%D7%95%D7%98%D7%9C%D7%A4%D7%95%D7%A0%D7%99%D7%9D-%D7%97%D7%99%D7%95%D7%A0%D7%99%D7%99%D7%9D-%D7%9E%D7%A7%D7%9C%D7%98-%D7%9E%D7%A7%D7%9C%D7%98%D7%99%D7%9D/",
+          "format": "web_page",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "english_name": "Netanya",
+      "hebrew_name": "נתניה",
+      "municipality_type": "city",
+      "district": "Central",
+      "population": 246000,
+      "folder_name": "netanya",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Netivot",
+      "hebrew_name": "נתיבות",
+      "municipality_type": "city",
+      "district": "Southern",
+      "population": 44000,
+      "folder_name": "netivot",
+      "shelter_resources": {
+        "resource_1": {
+          "url": "https://www.netivot.muni.il/%D7%A8%D7%A9%D7%99%D7%9E%D7%AA-%D7%9E%D7%A7%D7%9C%D7%98%D7%99%D7%9D/",
+          "format": "web_page",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "english_name": "Ofakim",
+      "hebrew_name": "אופקים",
+      "municipality_type": "city",
+      "district": "Southern",
+      "population": 35000,
+      "folder_name": "ofakim",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Or Akiva",
+      "hebrew_name": "אור עקיבא",
+      "municipality_type": "city",
+      "district": "Haifa",
+      "population": 21000,
+      "folder_name": "or-akiva",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Or Yehuda",
+      "hebrew_name": "אור יהודה",
+      "municipality_type": "city",
+      "district": "Tel Aviv",
+      "population": 40000,
+      "folder_name": "or-yehuda",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Petah Tikva",
+      "hebrew_name": "פתח תקווה",
+      "municipality_type": "city",
+      "district": "Central",
+      "population": 261000,
+      "folder_name": "petah-tikva",
+      "shelter_resources": {
+        "resource_1": {
+          "url": "https://www.petah-tikva.muni.il/city-and-municipality/emergency/receivers",
+          "format": "web_page",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "english_name": "Qalansawe",
+      "hebrew_name": "קלנסווה",
+      "municipality_type": "city",
+      "district": "Central",
+      "population": 24000,
+      "folder_name": "qalansawe",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Raanana",
+      "hebrew_name": "רעננה",
+      "municipality_type": "city",
+      "district": "Central",
+      "population": 86000,
+      "folder_name": "raanana",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Rahat",
+      "hebrew_name": "רהט",
+      "municipality_type": "city",
+      "district": "Southern",
+      "population": 81000,
+      "folder_name": "rahat",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Ramat Gan",
+      "hebrew_name": "רמת גן",
+      "municipality_type": "city",
+      "district": "Tel Aviv",
+      "population": 170000,
+      "folder_name": "ramat-gan",
+      "shelter_resources": {
+        "resource_1": {
+          "url": "https://www.ramat-gan.muni.il/department-security-and-enforcement/business-units/emergency",
+          "format": "web_page",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "english_name": "Rehovot",
+      "hebrew_name": "רחובות",
+      "municipality_type": "city",
+      "district": "Central",
+      "population": 155000,
+      "folder_name": "rehovot",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Rishon LeZion",
+      "hebrew_name": "ראשון לציון",
+      "municipality_type": "city",
+      "district": "Central",
+      "population": 260000,
+      "folder_name": "rishon-lezion",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Rosh HaAyin",
+      "hebrew_name": "ראש העין",
+      "municipality_type": "city",
+      "district": "Central",
+      "population": 68000,
+      "folder_name": "rosh-haayin",
+      "shelter_resources": {
+        "resource_1": {
+          "url": "https://www.rosh-haayin.muni.il/217/",
+          "format": "web_page",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "english_name": "Safed",
+      "hebrew_name": "צפת",
+      "municipality_type": "city",
+      "district": "Northern",
+      "population": 39000,
+      "folder_name": "safed",
+      "shelter_resources": {
+        "resource_1": {
+          "url": "https://www.zefat.muni.il/%D7%A8%D7%A9%D7%99%D7%9E%D7%AA-%D7%9E%D7%A7%D7%9C%D7%98%D7%99%D7%9D-%D7%A6%D7%99%D7%91%D7%95%D7%A8%D7%99%D7%99%D7%9D/",
+          "format": "web_page",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "english_name": "Sakhnin",
+      "hebrew_name": "סחנין",
+      "municipality_type": "city",
+      "district": "Northern",
+      "population": 34000,
+      "folder_name": "sakhnin",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Sderot",
+      "hebrew_name": "שדרות",
+      "municipality_type": "city",
+      "district": "Southern",
+      "population": 33000,
+      "folder_name": "sderot",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Shfaram",
+      "hebrew_name": "שפרעם",
+      "municipality_type": "city",
+      "district": "Northern",
+      "population": 44000,
+      "folder_name": "shfaram",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Tamra",
+      "hebrew_name": "טמרה",
+      "municipality_type": "city",
+      "district": "Northern",
+      "population": 35000,
+      "folder_name": "tamra",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Tel Aviv-Yafo",
+      "hebrew_name": "תל אביב-יפו",
+      "municipality_type": "city",
+      "district": "Tel Aviv",
+      "population": 478000,
+      "folder_name": "tel-aviv-yafo",
+      "shelter_resources": {
+        "resource_1": {
+          "url": "https://www.tel-aviv.gov.il/About/Pages/AccessibleShelters.aspx",
+          "format": "web_page",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "english_name": "Tiberias",
+      "hebrew_name": "טבריה",
+      "municipality_type": "city",
+      "district": "Northern",
+      "population": 48000,
+      "folder_name": "tiberias",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Tira",
+      "hebrew_name": "טירה",
+      "municipality_type": "city",
+      "district": "Central",
+      "population": 27000,
+      "folder_name": "tira",
+      "shelter_resources": {
+        "resource_1": {
+          "url": "https://www.tirat-carmel.muni.il/Emergency/Pages/shelters.aspx",
+          "format": "web_page",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "english_name": "Tirat Carmel",
+      "hebrew_name": "טירת כרמל",
+      "municipality_type": "city",
+      "district": "Haifa",
+      "population": 26000,
+      "folder_name": "tirat-carmel",
+      "shelter_resources": {
+        "resource_1": {
+          "url": "https://www.tirat-carmel.muni.il/Emergency/Pages/shelters.aspx",
+          "format": "web_page",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "english_name": "Umm al-Fahm",
+      "hebrew_name": "אום אל-פחם",
+      "municipality_type": "city",
+      "district": "Haifa",
+      "population": 58000,
+      "folder_name": "umm-al-fahm",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Yavne",
+      "hebrew_name": "יבנה",
+      "municipality_type": "city",
+      "district": "Central",
+      "population": 49000,
+      "folder_name": "yavne",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Yehud-Monosson",
+      "hebrew_name": "יהוד-מונוסון",
+      "municipality_type": "city",
+      "district": "Central",
+      "population": 31000,
+      "folder_name": "yehud-monosson",
+      "shelter_resources": {
+        "resource_1": {
+          "url": "https://yehud-monosson.muni.il/%D7%A8%D7%A9%D7%99%D7%9E%D7%AA-%D7%9E%D7%A7%D7%9C%D7%98%D7%99%D7%9D-%D7%A4%D7%AA%D7%95%D7%97%D7%99%D7%9D/",
+          "format": "web_page",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "english_name": "Yoqne'am Illit",
+      "hebrew_name": "יקנעם עילית",
+      "municipality_type": "city",
+      "district": "Northern",
+      "population": 24000,
+      "folder_name": "yoqne-am-illit",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": " দেইר אל אסד ",
+      "hebrew_name": "דיר אל-אסד",
+      "municipality_type": "local_council",
+      "district": "Northern",
+      "population": 13000,
+      "folder_name": "",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": " দেইר חנא ",
+      "hebrew_name": "דיר חנא",
+      "municipality_type": "local_council",
+      "district": "Northern",
+      "population": 11000,
+      "folder_name": "",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Abu Basma",
+      "hebrew_name": "אבו בסמה",
+      "municipality_type": "local_council",
+      "district": "Southern",
+      "population": 15000,
+      "folder_name": "abu-basma",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Abu Gosh",
+      "hebrew_name": "אבו גוש",
+      "municipality_type": "local_council",
+      "district": "Jerusalem",
+      "population": 8000,
+      "folder_name": "abu-gosh",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Ar'ara BaNegev",
+      "hebrew_name": "ערערה בנגב",
+      "municipality_type": "local_council",
+      "district": "Southern",
+      "population": 22000,
+      "folder_name": "ar-ara-banegev",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Baka al-Gharbiya",
+      "hebrew_name": "באקה אל-גרביה",
+      "municipality_type": "local_council",
+      "district": "Haifa",
+      "population": 32000,
+      "folder_name": "baka-al-gharbiya",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Basmat Tab'un",
+      "hebrew_name": "בסמת טבעון",
+      "municipality_type": "local_council",
+      "district": "Northern",
+      "population": 9000,
+      "folder_name": "basmat-tab-un",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Beit Alfa",
+      "hebrew_name": "בית אלפא",
+      "municipality_type": "local_council",
+      "district": "Northern",
+      "population": 1100,
+      "folder_name": "beit-alfa",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Beit El",
+      "hebrew_name": "בית אל",
+      "municipality_type": "local_council",
+      "district": "Judea and Samaria",
+      "population": 6500,
+      "folder_name": "beit-el",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Beit Jann",
+      "hebrew_name": "בית ג'ן",
+      "municipality_type": "local_council",
+      "district": "Northern",
+      "population": 12000,
+      "folder_name": "beit-jann",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Beit Lechem HaGlilit",
+      "hebrew_name": "בית לחם הגלילית",
+      "municipality_type": "local_council",
+      "district": "Northern",
+      "population": 900,
+      "folder_name": "beit-lechem-haglilit",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Beit Nehemya",
+      "hebrew_name": "בית נחמיה",
+      "municipality_type": "local_council",
+      "district": "Central",
+      "population": 1600,
+      "folder_name": "beit-nehemya",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Beit Shearim",
+      "hebrew_name": "בית שערים",
+      "municipality_type": "local_council",
+      "district": "Northern",
+      "population": 900,
+      "folder_name": "beit-shearim",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Beit Yatir",
+      "hebrew_name": "בית יתיר",
+      "municipality_type": "local_council",
+      "district": "Southern",
+      "population": 1000,
+      "folder_name": "beit-yatir",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Bet Dagan",
+      "hebrew_name": "בית דגן",
+      "municipality_type": "local_council",
+      "district": "Central",
+      "population": 8000,
+      "folder_name": "bet-dagan",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Binyamina-Giv'at Ada",
+      "hebrew_name": "בנימינה-גבעת עדה",
+      "municipality_type": "local_council",
+      "district": "Haifa",
+      "population": 16000,
+      "folder_name": "binyamina-giv-at-ada",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Bir al-Maksur",
+      "hebrew_name": "ביר אל-מכסור",
+      "municipality_type": "local_council",
+      "district": "Northern",
+      "population": 9000,
+      "folder_name": "bir-al-maksur",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Bu'eine Nujeidat",
+      "hebrew_name": "בועיינה נוג'ידאת",
+      "municipality_type": "local_council",
+      "district": "Northern",
+      "population": 9000,
+      "folder_name": "bu-eine-nujeidat",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Elad",
+      "hebrew_name": "אלעד",
+      "municipality_type": "local_council",
+      "district": "Central",
+      "population": 50000,
+      "folder_name": "elad",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Fureidis",
+      "hebrew_name": "פוריידיס",
+      "municipality_type": "local_council",
+      "district": "Haifa",
+      "population": 14000,
+      "folder_name": "fureidis",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Gan Yavne",
+      "hebrew_name": "גן יבנה",
+      "municipality_type": "local_council",
+      "district": "Southern",
+      "population": 24000,
+      "folder_name": "gan-yavne",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Ganei Tikva",
+      "hebrew_name": "גני תקוה",
+      "municipality_type": "local_council",
+      "district": "Central",
+      "population": 25000,
+      "folder_name": "ganei-tikva",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Gedera",
+      "hebrew_name": "גְּדֵרָה",
+      "municipality_type": "local_council",
+      "district": "Central",
+      "population": 30000,
+      "folder_name": "gedera",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Givat Avni",
+      "hebrew_name": "גבעת אבני",
+      "municipality_type": "local_council",
+      "district": "Northern",
+      "population": 3000,
+      "folder_name": "givat-avni",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Givat Shmuel",
+      "hebrew_name": "גבעת שמואל",
+      "municipality_type": "local_council",
+      "district": "Central",
+      "population": 28000,
+      "folder_name": "givat-shmuel",
+      "shelter_resources": {
+        "resource_1": {
+          "url": "https://www.givat-shmuel.muni.il/%D7%A8%D7%A9%D7%99%D7%9E%D7%AA-%D7%9E%D7%A7%D7%9C%D7%98%D7%99%D7%9D-%D7%91%D7%A2%D7%99%D7%A8/",
+          "format": "web_page",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "english_name": "Hatzor HaGlilit",
+      "hebrew_name": "חצור הגלילית",
+      "municipality_type": "local_council",
+      "district": "Northern",
+      "population": 8000,
+      "folder_name": "hatzor-haglilit",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Herzliya",
+      "hebrew_name": "הרצליה",
+      "municipality_type": "local_council",
+      "district": "Tel Aviv",
+      "population": 100000,
+      "folder_name": "herzliya",
+      "shelter_resources": {
+        "resource_1": {
+          "url": "https://www.herzliya.muni.il/%D7%9E%D7%A7%D7%9C%D7%98%D7%99%D7%9D-%D7%A6%D7%99%D7%91%D7%95%D7%A8%D7%99%D7%99%D7%9D/",
+          "format": "web_page",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "english_name": "Hurfeish",
+      "hebrew_name": "חורפיש",
+      "municipality_type": "local_council",
+      "district": "Northern",
+      "population": 7000,
+      "folder_name": "hurfeish",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "I'billin",
+      "hebrew_name": "עבלין",
+      "municipality_type": "local_council",
+      "district": "Northern",
+      "population": 14000,
+      "folder_name": "i-billin",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Iksal",
+      "hebrew_name": "אכסאל",
+      "municipality_type": "local_council",
+      "district": "Northern",
+      "population": 16000,
+      "folder_name": "iksal",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Jatt",
+      "hebrew_name": "ג'ת",
+      "municipality_type": "local_council",
+      "district": "Haifa",
+      "population": 13000,
+      "folder_name": "jatt",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Jish (Gush Halav)",
+      "hebrew_name": "ג'ש (גוש חלב)",
+      "municipality_type": "local_council",
+      "district": "Northern",
+      "population": 4000,
+      "folder_name": "jish-gush-halav",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Julis",
+      "hebrew_name": "ג'וליס",
+      "municipality_type": "local_council",
+      "district": "Northern",
+      "population": 7000,
+      "folder_name": "julis",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Ka'abiyye-Tabash-Hajajre",
+      "hebrew_name": "כעביה-טבאש-חג'אג'רה",
+      "municipality_type": "local_council",
+      "district": "Northern",
+      "population": 6000,
+      "folder_name": "ka-abiyye-tabash-hajajre",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Kafar Kama",
+      "hebrew_name": "כפר קמא",
+      "municipality_type": "local_council",
+      "district": "Northern",
+      "population": 4000,
+      "folder_name": "kafar-kama",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Kafar Qara",
+      "hebrew_name": "כפר קרע",
+      "municipality_type": "local_council",
+      "district": "Haifa",
+      "population": 21000,
+      "folder_name": "kafar-qara",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Kafr Yasif",
+      "hebrew_name": "כפר יאסיף",
+      "municipality_type": "local_council",
+      "district": "Northern",
+      "population": 10000,
+      "folder_name": "kafr-yasif",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Katzrin",
+      "hebrew_name": "קצרין",
+      "municipality_type": "local_council",
+      "district": "Northern",
+      "population": 8000,
+      "folder_name": "katzrin",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Kaukab Abu al-Hija",
+      "hebrew_name": "כוכב אבו אל-היג'א",
+      "municipality_type": "local_council",
+      "district": "Northern",
+      "population": 4000,
+      "folder_name": "kaukab-abu-al-hija",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Kfar Adumim",
+      "hebrew_name": "כפר אדומים",
+      "municipality_type": "local_council",
+      "district": "Judea and Samaria",
+      "population": 5000,
+      "folder_name": "kfar-adumim",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Kfar Bara",
+      "hebrew_name": "כפר ברא",
+      "municipality_type": "local_council",
+      "district": "Central",
+      "population": 4000,
+      "folder_name": "kfar-bara",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Kfar Tavor",
+      "hebrew_name": "כפר תבור",
+      "municipality_type": "local_council",
+      "district": "Northern",
+      "population": 4500,
+      "folder_name": "kfar-tavor",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Kfar Vradim",
+      "hebrew_name": "כפר ורדים",
+      "municipality_type": "local_council",
+      "district": "Northern",
+      "population": 7000,
+      "folder_name": "kfar-vradim",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Kiryat Ekron",
+      "hebrew_name": "קריית עקרון",
+      "municipality_type": "local_council",
+      "district": "Central",
+      "population": 11000,
+      "folder_name": "kiryat-ekron",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Kiryat Motzkin",
+      "hebrew_name": "קריית מוצקין",
+      "municipality_type": "local_council",
+      "district": "Haifa",
+      "population": 45000,
+      "folder_name": "kiryat-motzkin",
+      "shelter_resources": {
+        "resource_1": {
+          "url": "https://www.kiryat-motzkin.muni.il/%D7%9E%D7%A7%D7%9C%D7%98%D7%99%D7%9D-%D7%A6%D7%99%D7%91%D7%95%D7%A8%D7%99%D7%99%D7%9D/",
+          "format": "web_page",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "english_name": "Kiryat Ono",
+      "hebrew_name": "קריית אונו",
+      "municipality_type": "local_council",
+      "district": "Tel Aviv",
+      "population": 45000,
+      "folder_name": "kiryat-ono",
+      "shelter_resources": {
+        "resource_1": {
+          "url": "https://www.kiryatono.muni.il/%D7%9E%D7%A7%D7%9C%D7%98%D7%99%D7%9D-%D7%A6%D7%99%D7%91%D7%95%D7%A8%D7%99%D7%99%D7%9D-%D7%91%D7%A2%D7%99%D7%A8/",
+          "format": "web_page",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "english_name": "Lakiya",
+      "hebrew_name": "לקייה",
+      "municipality_type": "local_council",
+      "district": "Southern",
+      "population": 14000,
+      "folder_name": "lakiya",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Ma'ale Efraim",
+      "hebrew_name": "מעלה אפרים",
+      "municipality_type": "local_council",
+      "district": "Judea and Samaria",
+      "population": 1500,
+      "folder_name": "ma-ale-efraim",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Mazkeret Batya",
+      "hebrew_name": "מזכרת בתיה",
+      "municipality_type": "local_council",
+      "district": "Central",
+      "population": 15000,
+      "folder_name": "mazkeret-batya",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Metar",
+      "hebrew_name": "מֵיתָר",
+      "municipality_type": "local_council",
+      "district": "Southern",
+      "population": 9000,
+      "folder_name": "metar",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Mevo Horon",
+      "hebrew_name": "מבוא חורון",
+      "municipality_type": "local_council",
+      "district": "Judea and Samaria",
+      "population": 3000,
+      "folder_name": "mevo-horon",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Moatza Azorit Nahal Sorek",
+      "hebrew_name": "מועצה אזורית נחל שורק",
+      "municipality_type": "local_council",
+      "district": "Central",
+      "population": 9000,
+      "folder_name": "moatza-azorit-nahal-sorek",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Moreshet",
+      "hebrew_name": "מורשת",
+      "municipality_type": "local_council",
+      "district": "Northern",
+      "population": 3000,
+      "folder_name": "moreshet",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Nahf",
+      "hebrew_name": "נחף",
+      "municipality_type": "local_council",
+      "district": "Northern",
+      "population": 15000,
+      "folder_name": "nahf",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Nes Harim",
+      "hebrew_name": "נס הרים",
+      "municipality_type": "local_council",
+      "district": "Jerusalem",
+      "population": 1200,
+      "folder_name": "nes-harim",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Omer",
+      "hebrew_name": "עומר",
+      "municipality_type": "local_council",
+      "district": "Southern",
+      "population": 8000,
+      "folder_name": "omer",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Oranit",
+      "hebrew_name": "אורנית",
+      "municipality_type": "local_council",
+      "district": "Central",
+      "population": 9000,
+      "folder_name": "oranit",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Pardes Hanna-Karkur",
+      "hebrew_name": "פרדס חנה-כרכור",
+      "municipality_type": "local_council",
+      "district": "Haifa",
+      "population": 45000,
+      "folder_name": "pardes-hanna-karkur",
+      "shelter_resources": {
+        "resource_1": {
+          "url": "https://www.pardes-hanna-karkur.muni.il/shelters/",
+          "format": "web_page",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "english_name": "Qiryat Yam",
+      "hebrew_name": "קריית ים",
+      "municipality_type": "local_council",
+      "district": "Haifa",
+      "population": 40000,
+      "folder_name": "qiryat-yam",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Ramat Yishai",
+      "hebrew_name": "רמת ישי",
+      "municipality_type": "local_council",
+      "district": "Northern",
+      "population": 8000,
+      "folder_name": "ramat-yishai",
+      "shelter_resources": {
+        "resource_1": {
+          "url": "https://www.ramat-gan.muni.il/department-security-and-enforcement/business-units/emergency",
+          "format": "web_page",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "english_name": "Rechasim",
+      "hebrew_name": "רכסים",
+      "municipality_type": "local_council",
+      "district": "Haifa",
+      "population": 13000,
+      "folder_name": "rechasim",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Revava",
+      "hebrew_name": "רבבה",
+      "municipality_type": "local_council",
+      "district": "Judea and Samaria",
+      "population": 9000,
+      "folder_name": "revava",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Sajur",
+      "hebrew_name": "סאג'ור",
+      "municipality_type": "local_council",
+      "district": "Northern",
+      "population": 4000,
+      "folder_name": "sajur",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Salama",
+      "hebrew_name": "סלמה",
+      "municipality_type": "local_council",
+      "district": "Northern",
+      "population": 2000,
+      "folder_name": "salama",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Sha'ab",
+      "hebrew_name": "שעב",
+      "municipality_type": "local_council",
+      "district": "Northern",
+      "population": 7000,
+      "folder_name": "sha-ab",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Shlomi",
+      "hebrew_name": "שלומי",
+      "municipality_type": "local_council",
+      "district": "Northern",
+      "population": 8000,
+      "folder_name": "shlomi",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Tel Mond",
+      "hebrew_name": "תל מונד",
+      "municipality_type": "local_council",
+      "district": "Central",
+      "population": 14000,
+      "folder_name": "tel-mond",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Tuba-Zangariyye",
+      "hebrew_name": "טובא-זנגריה",
+      "municipality_type": "local_council",
+      "district": "Northern",
+      "population": 8000,
+      "folder_name": "tuba-zangariyye",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Tur'an",
+      "hebrew_name": "טורעאן",
+      "municipality_type": "local_council",
+      "district": "Northern",
+      "population": 15000,
+      "folder_name": "tur-an",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Yavne'el",
+      "hebrew_name": "יבנאל",
+      "municipality_type": "local_council",
+      "district": "Northern",
+      "population": 5000,
+      "folder_name": "yavne-el",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Yirka",
+      "hebrew_name": "ירכא",
+      "municipality_type": "local_council",
+      "district": "Northern",
+      "population": 17000,
+      "folder_name": "yirka",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Yokneam Illit",
+      "hebrew_name": "יקנעם עילית",
+      "municipality_type": "local_council",
+      "district": "Northern",
+      "population": 24000,
+      "folder_name": "yokneam-illit",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Zichron Ya'akov",
+      "hebrew_name": "זכרון יעקב",
+      "municipality_type": "local_council",
+      "district": "Haifa",
+      "population": 25000,
+      "folder_name": "zichron-ya-akov",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Abu Basma Regional Council",
+      "hebrew_name": "מועצה אזורית אבו בסמה",
+      "municipality_type": "regional_council",
+      "district": "Southern",
+      "population": 30000,
+      "folder_name": "abu-basma-regional-council",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Al-Kasom Regional Council",
+      "hebrew_name": "מועצה אזורית אל קסום",
+      "municipality_type": "regional_council",
+      "district": "Southern",
+      "population": 25000,
+      "folder_name": "al-kasom-regional-council",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Alona Regional Council",
+      "hebrew_name": "מועצה מקומית אלונה",
+      "municipality_type": "regional_council",
+      "district": "Haifa",
+      "population": 4000,
+      "folder_name": "alona-regional-council",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Arava Tihona Regional Council",
+      "hebrew_name": "מועצה אזורית הערבה התיכונה",
+      "municipality_type": "regional_council",
+      "district": "Southern",
+      "population": 900,
+      "folder_name": "arava-tihona-regional-council",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Arava Tikhona Regional Council",
+      "hebrew_name": "מועצה אזורית הערבה התיכונה",
+      "municipality_type": "regional_council",
+      "district": "Southern",
+      "population": 900,
+      "folder_name": "arava-tikhona-regional-council",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Bnei Shimon Regional Council",
+      "hebrew_name": "מועצה אזורית בני שמעון",
+      "municipality_type": "regional_council",
+      "district": "Southern",
+      "population": 10000,
+      "folder_name": "bnei-shimon-regional-council",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Bu'eine Nujeidat Regional Council",
+      "hebrew_name": "מועצה מקומית בועיינה-נוג'ידאת",
+      "municipality_type": "regional_council",
+      "district": "Northern",
+      "population": 9000,
+      "folder_name": "bu-eine-nujeidat-regional-council",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Bustan El Marj Regional Council",
+      "hebrew_name": "מועצה אזורית בוסתן אל-מרג'",
+      "municipality_type": "regional_council",
+      "district": "Northern",
+      "population": 8000,
+      "folder_name": "bustan-el-marj-regional-council",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Drom HaSharon Regional Council",
+      "hebrew_name": "מועצה אזורית דרום השרון",
+      "municipality_type": "regional_council",
+      "district": "Central",
+      "population": 27000,
+      "folder_name": "drom-hasharon-regional-council",
+      "shelter_resources": {
+        "resource_1": {
+          "url": "https://www.dsharon.org.il/%D7%9E%D7%A7%D7%9C%D7%98%D7%99%D7%9D-%D7%91%D7%93%D7%A8%D7%95%D7%9D-%D7%94%D7%A9%D7%A8%D7%95%D7%9F/",
+          "format": "web_page",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "english_name": "Eilot Regional Council",
+      "hebrew_name": "מועצה אזורית חבל אילות",
+      "municipality_type": "regional_council",
+      "district": "Southern",
+      "population": 4500,
+      "folder_name": "eilot-regional-council",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Eshkol Regional Council",
+      "hebrew_name": "מועצה אזורית אשכול",
+      "municipality_type": "regional_council",
+      "district": "Southern",
+      "population": 15000,
+      "folder_name": "eshkol-regional-council",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Galil Elyon Regional Council",
+      "hebrew_name": "מועצה אזורית הגליל העליון",
+      "municipality_type": "regional_council",
+      "district": "Northern",
+      "population": 17000,
+      "folder_name": "galil-elyon-regional-council",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Galil HaTachton Regional Council",
+      "hebrew_name": "מועצה אזורית הגליל התחתון",
+      "municipality_type": "regional_council",
+      "district": "Northern",
+      "population": 18000,
+      "folder_name": "galil-hatachton-regional-council",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Gederot Regional Council",
+      "hebrew_name": "מועצה אזורית גדרות",
+      "municipality_type": "regional_council",
+      "district": "Central",
+      "population": 7000,
+      "folder_name": "gederot-regional-council",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Gezer Regional Council",
+      "hebrew_name": "מועצה אזורית גזר",
+      "municipality_type": "regional_council",
+      "district": "Central",
+      "population": 28000,
+      "folder_name": "gezer-regional-council",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Gilboa Regional Council",
+      "hebrew_name": "מועצה אזורית הגלבוע",
+      "municipality_type": "regional_council",
+      "district": "Northern",
+      "population": 9500,
+      "folder_name": "gilboa-regional-council",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Golan Regional Council",
+      "hebrew_name": "מועצה אזורית גולן",
+      "municipality_type": "regional_council",
+      "district": "Northern",
+      "population": 8000,
+      "folder_name": "golan-regional-council",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Gush Etzion Regional Council",
+      "hebrew_name": "מועצה אזורית גוש עציון",
+      "municipality_type": "regional_council",
+      "district": "Judea and Samaria Area",
+      "population": 28000,
+      "folder_name": "gush-etzion-regional-council",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Har Hevron Regional Council",
+      "hebrew_name": "מועצה אזורית הר חברון",
+      "municipality_type": "regional_council",
+      "district": "Judea and Samaria Area",
+      "population": 10000,
+      "folder_name": "har-hevron-regional-council",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Hefer Valley Regional Council",
+      "hebrew_name": "מועצה אזורית עמק חפר",
+      "municipality_type": "regional_council",
+      "district": "Central",
+      "population": 45000,
+      "folder_name": "hefer-valley-regional-council",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Herzliya Regional Council",
+      "hebrew_name": "מועצה אזורית חוף השרון",
+      "municipality_type": "regional_council",
+      "district": "Central",
+      "population": 22000,
+      "folder_name": "herzliya-regional-council",
+      "shelter_resources": {
+        "resource_1": {
+          "url": "https://www.herzliya.muni.il/%D7%9E%D7%A7%D7%9C%D7%98%D7%99%D7%9D-%D7%A6%D7%99%D7%91%D7%95%D7%A8%D7%99%D7%99%D7%9D/",
+          "format": "web_page",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "english_name": "Hevel Yavne Regional Council",
+      "hebrew_name": "מועצה אזורית חבל יבנה",
+      "municipality_type": "regional_council",
+      "district": "Central",
+      "population": 7000,
+      "folder_name": "hevel-yavne-regional-council",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Jezreel Valley Regional Council",
+      "hebrew_name": "מועצה אזורית עמק יזרעאל",
+      "municipality_type": "regional_council",
+      "district": "Northern",
+      "population": 48000,
+      "folder_name": "jezreel-valley-regional-council",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Jordan Valley Regional Council",
+      "hebrew_name": "מועצה אזורית עמק הירדן",
+      "municipality_type": "regional_council",
+      "district": "Northern",
+      "population": 7500,
+      "folder_name": "jordan-valley-regional-council",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Julis Regional Council",
+      "hebrew_name": "מועצה מקומית ג'וליס",
+      "municipality_type": "regional_council",
+      "district": "Northern",
+      "population": 7000,
+      "folder_name": "julis-regional-council",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Kaukab Abu al-Hija Regional Council",
+      "hebrew_name": "מועצה מקומית כוכב אבו אל-היג'א",
+      "municipality_type": "regional_council",
+      "district": "Northern",
+      "population": 4000,
+      "folder_name": "kaukab-abu-al-hija-regional-council",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Kfar Tavor Regional Council",
+      "hebrew_name": "מועצה מקומית כפר תבור",
+      "municipality_type": "regional_council",
+      "district": "Northern",
+      "population": 4500,
+      "folder_name": "kfar-tavor-regional-council",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Lachish Regional Council",
+      "hebrew_name": "מועצה אזורית לכיש",
+      "municipality_type": "regional_council",
+      "district": "Southern",
+      "population": 10500,
+      "folder_name": "lachish-regional-council",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Lev HaSharon Regional Council",
+      "hebrew_name": "מועצה אזורית לב השרון",
+      "municipality_type": "regional_council",
+      "district": "Central",
+      "population": 23000,
+      "folder_name": "lev-hasharon-regional-council",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Lower Galilee Regional Council",
+      "hebrew_name": "מועצה אזורית משגב",
+      "municipality_type": "regional_council",
+      "district": "Northern",
+      "population": 30000,
+      "folder_name": "lower-galilee-regional-council",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Mateh Asher Regional Council",
+      "hebrew_name": "מועצה אזורית מטה אשר",
+      "municipality_type": "regional_council",
+      "district": "Northern",
+      "population": 22000,
+      "folder_name": "mateh-asher-regional-council",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Mateh Binyamin Regional Council",
+      "hebrew_name": "מועצה אזורית מטה בנימין",
+      "municipality_type": "regional_council",
+      "district": "Judea and Samaria Area",
+      "population": 90000,
+      "folder_name": "mateh-binyamin-regional-council",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Megiddo Regional Council",
+      "hebrew_name": "מועצה אזורית מגידו",
+      "municipality_type": "regional_council",
+      "district": "Northern",
+      "population": 11000,
+      "folder_name": "megiddo-regional-council",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Megilot Dead Sea Regional Council",
+      "hebrew_name": "מועצה אזורית מגילות ים המלח",
+      "municipality_type": "regional_council",
+      "district": "Judea and Samaria Area",
+      "population": 2000,
+      "folder_name": "megilot-dead-sea-regional-council",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Menashe Regional Council",
+      "hebrew_name": "מועצה אזורית מנשה",
+      "municipality_type": "regional_council",
+      "district": "Haifa",
+      "population": 11500,
+      "folder_name": "menashe-regional-council",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Merhavim Regional Council",
+      "hebrew_name": "מועצה אזורית מרחבים",
+      "municipality_type": "regional_council",
+      "district": "Southern",
+      "population": 15000,
+      "folder_name": "merhavim-regional-council",
+      "shelter_resources": {
+        "resource_1": {
+          "url": "https://www.merchavim.org.il/%D7%A8%D7%A9%D7%99%D7%9E%D7%AA-%D7%9E%D7%A7%D7%9C%D7%98%D7%99%D7%9D-%D7%91%D7%99%D7%99%D7%A9%D7%95%D7%91%D7%99%D7%9D/",
+          "format": "web_page",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "english_name": "Mevo'ot HaHermon Regional Council",
+      "hebrew_name": "מועצה אזורית מבואות החרמון",
+      "municipality_type": "regional_council",
+      "district": "Northern",
+      "population": 2500,
+      "folder_name": "mevo-ot-hahermon-regional-council",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Modi'in Illit Regional Council",
+      "hebrew_name": "מועצה אזורית מטה יהודה",
+      "municipality_type": "regional_council",
+      "district": "Jerusalem",
+      "population": 60000,
+      "folder_name": "modi-in-illit-regional-council",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Mount Hermon Regional Council",
+      "hebrew_name": "מועצה אזורית גולן",
+      "municipality_type": "regional_council",
+      "district": "Northern",
+      "population": 2000,
+      "folder_name": "mount-hermon-regional-council",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Nahal Sorek Regional Council",
+      "hebrew_name": "מועצה אזורית נחל שורק",
+      "municipality_type": "regional_council",
+      "district": "Central",
+      "population": 9000,
+      "folder_name": "nahal-sorek-regional-council",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Ne'ot Hovav Regional Council",
+      "hebrew_name": "מועצה אזורית רמת נגב",
+      "municipality_type": "regional_council",
+      "district": "Southern",
+      "population": 7500,
+      "folder_name": "ne-ot-hovav-regional-council",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Nevo'ot Regional Council",
+      "hebrew_name": "מועצה אזורית נווה מדבר",
+      "municipality_type": "regional_council",
+      "district": "Southern",
+      "population": 10000,
+      "folder_name": "nevo-ot-regional-council",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Northern Arava Regional Council",
+      "hebrew_name": "מועצה אזורית צפון הערבה",
+      "municipality_type": "regional_council",
+      "district": "Southern",
+      "population": 1500,
+      "folder_name": "northern-arava-regional-council",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Or Yehuda Regional Council",
+      "hebrew_name": "מועצה אזורית עמק לוד",
+      "municipality_type": "regional_council",
+      "district": "Central",
+      "population": 15000,
+      "folder_name": "or-yehuda-regional-council",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Otzar Regional Council",
+      "hebrew_name": "מועצה אזורית עמק המעיינות",
+      "municipality_type": "regional_council",
+      "district": "Northern",
+      "population": 7500,
+      "folder_name": "otzar-regional-council",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Ramat HaNegev Regional Council",
+      "hebrew_name": "מועצה אזורית רמת הנגב",
+      "municipality_type": "regional_council",
+      "district": "Southern",
+      "population": 7500,
+      "folder_name": "ramat-hanegev-regional-council",
+      "shelter_resources": {
+        "resource_1": {
+          "url": "https://www.ramat-gan.muni.il/department-security-and-enforcement/business-units/emergency",
+          "format": "web_page",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "english_name": "Sdot Dan Regional Council",
+      "hebrew_name": "מועצה אזורית הגליל העליון",
+      "municipality_type": "regional_council",
+      "district": "Northern",
+      "population": 2500,
+      "folder_name": "sdot-dan-regional-council",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Sdot Negev Regional Council",
+      "hebrew_name": "מועצה אזורית שדות נגב",
+      "municipality_type": "regional_council",
+      "district": "Southern",
+      "population": 9000,
+      "folder_name": "sdot-negev-regional-council",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Sha'ar HaNegev Regional Council",
+      "hebrew_name": "מועצה אזורית שער הנגב",
+      "municipality_type": "regional_council",
+      "district": "Southern",
+      "population": 8000,
+      "folder_name": "sha-ar-hanegev-regional-council",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Shafir Regional Council",
+      "hebrew_name": "מועצה אזורית שפיר",
+      "municipality_type": "regional_council",
+      "district": "Southern",
+      "population": 12000,
+      "folder_name": "shafir-regional-council",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Shomron Regional Council",
+      "hebrew_name": "מועצה אזורית שומרון",
+      "municipality_type": "regional_council",
+      "district": "Judea and Samaria Area",
+      "population": 25000,
+      "folder_name": "shomron-regional-council",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Tamar Regional Council",
+      "hebrew_name": "מועצה אזורית תמר",
+      "municipality_type": "regional_council",
+      "district": "Southern",
+      "population": 1500,
+      "folder_name": "tamar-regional-council",
+      "shelter_resources": {
+        "resource_1": {
+          "url": "https://www.ma-tamar.org.il/%D7%A8%D7%A9%D7%99%D7%9E%D7%AA-%D7%9E%D7%A7%D7%9C%D7%98%D7%99%D7%9D/",
+          "format": "web_page",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "english_name": "Yisrael Regional Council",
+      "hebrew_name": "מועצה אזורית עמק יזרעאל",
+      "municipality_type": "regional_council",
+      "district": "Northern",
+      "population": 1000,
+      "folder_name": "yisrael-regional-council",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Yoav Regional Council",
+      "hebrew_name": "מועצה אזורית יואב",
+      "municipality_type": "regional_council",
+      "district": "Southern",
+      "population": 7000,
+      "folder_name": "yoav-regional-council",
+      "shelter_resources": {}
+    },
+    {
+      "english_name": "Zevulun Regional Council",
+      "hebrew_name": "מועצה אזורית זבולון",
+      "municipality_type": "regional_council",
+      "district": "Haifa",
+      "population": 18000,
+      "folder_name": "zevulun-regional-council",
+      "shelter_resources": {}
+    }
+  ]
+}
