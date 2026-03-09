@@ -23,7 +23,7 @@ This data powers an MCP server that enables AI assistants to:
 The data flows through this pipeline:
 
 ```
-Raw municipal data → This repository (validated GeoJSON) → Miklat MCP server → AI agents
+Raw data → pipeline/first-entry → pipeline/structured → pipeline/validated → data/ → MCP server → AI agents
 ```
 
 Any AI assistant that supports MCP can connect to the live endpoint and query shelter data in real time.
@@ -32,16 +32,28 @@ Any AI assistant that supports MCP can connect to the live endpoint and query sh
 
 ```
 data-manifest/
-  manifest.json          # Ground truth: all areas, IDs, and raw source URLs
+  manifest.json                    # Ground truth: all areas, IDs, and raw source URLs
 data/
-  <area>/shelters.json   # Production-ready GeoJSON (consumed by MCP)
-working-data/
-  tracking.json          # Pipeline status for each area
-  <area>/                # Work-in-progress data before validation
-structured-data/
-  <area>/                # Structured intermediate data
-  shelter-resources.json # Municipal resource directory
+  <area>/shelters.json             # Production-ready GeoJSON (consumed by MCP)
+pipeline/
+  first-entry/                     # Raw data in any format (PDFs, CSVs, scraped pages)
+    tracking.json                  # Pipeline status tracker for each area
+    <area>/                        # Raw source files per area
+  structured/                      # AI-processed data conforming to schema
+    <area>/                        # Structured intermediate data
+    shelter-resources.json         # Municipal resource directory
+  validated/                       # Final review stage before promotion to data/
+    <area>/                        # QC-approved data awaiting promotion
 ```
+
+### Data Pipeline
+
+Data moves through a three-stage pipeline before reaching production:
+
+1. **First Entry** (`pipeline/first-entry/`) — Raw data in any format is collected here.
+2. **Structured** (`pipeline/structured/`) — AI agents or humans process raw data into the GeoJSON schema.
+3. **Validated** (`pipeline/validated/`) — Quality control: coordinate accuracy, schema conformance, deduplication.
+4. **Production** (`data/`) — Validated data is promoted here and served by the MCP.
 
 ## Data Schema
 
@@ -155,7 +167,7 @@ We accept data in any format (PDF, spreadsheet, web page, API) and will handle c
 
 ## Current Status
 
-Check `working-data/tracking.json` for the current pipeline status of each area. The tracking file shows:
+Check `pipeline/first-entry/tracking.json` for the current pipeline status of each area. The tracking file shows:
 
 - Which areas have complete production data
 - Which areas have identified source URLs but need scraping/conversion

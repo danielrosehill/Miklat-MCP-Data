@@ -16,18 +16,30 @@ Data from this repository is periodically pulled downstream into the MCP server 
 
 ```
 data-manifest/
-  manifest.json          # Ground truth: all 199 areas, IDs, and raw source URLs
+  manifest.json                    # Ground truth: all 199 areas, IDs, and raw source URLs
 data/
-  <area>/shelters.json   # Production-ready GeoJSON (consumed by MCP server)
-working-data/
-  tracking.json          # Pipeline status tracker for each area
-  <area>/                # Work-in-progress data before validation
-structured-data/
-  <area>/                # Structured intermediate data
-  shelter-resources.json # Municipal resource directory
+  <area>/shelters.json             # Production-ready GeoJSON (consumed by MCP server)
+pipeline/
+  first-entry/                     # Raw data in any format (PDFs, CSVs, scraped pages)
+    tracking.json                  # Pipeline status tracker for each area
+    <area>/                        # Raw source files per area
+  structured/                      # AI-processed data conforming to schema
+    <area>/                        # Structured intermediate data
+    shelter-resources.json         # Municipal resource directory
+  validated/                       # Final review stage before promotion to data/
+    <area>/                        # QC-approved data awaiting promotion
 ```
 
 Each area (city, local council, or regional council) has a unique identifier (`MKT-001` through `MKT-199`) defined in the [data manifest](data-manifest/manifest.json). The manifest is the single source of truth for what areas are tracked and where their raw data can be found.
+
+## Data Pipeline
+
+This repository is designed for humans and AI agents to work together. Data moves through a three-stage pipeline before reaching production:
+
+1. **First Entry** (`pipeline/first-entry/`) — Raw data is collected from municipal sources in any format: PDFs, spreadsheets, web scrapes, or CSV exports. Contributors (human or AI) drop source material here.
+2. **Structured** (`pipeline/structured/`) — AI agents process the raw data, geocode addresses, and structure it into the GeoJSON schema defined below. Human contributors can also do this step manually.
+3. **Validated** (`pipeline/validated/`) — Structured data undergoes quality control: coordinate accuracy, schema conformance, and deduplication checks. This is the final gate before production.
+4. **Production** (`data/`) — Validated data is promoted here and becomes available to the MCP server. Only data that has passed through all pipeline stages should live in this folder.
 
 ## Schema
 
